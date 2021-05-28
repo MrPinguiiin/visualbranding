@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>tugas Visual Branding (Pop Up Iklan) </title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+	<meta name="author" content="Author for Tutorial-webdesign.com" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+	<header>
+		<img src="img/twd-logo-mini.png" alt="logo twd mini">
+		<h1><a href="http://www.tutorial-webdesign.com">Tutorial-Bahagia<small>.com</small></a></h1>
+	</header>
+	<div class="main">
+		
+		<section class="page one">
+			<div class="page-container">
+				<h2>Tersenyumlah</h2>
+				<p>Anda mungkin lebih sering tersenyum di kala hati sedang gembira saja. Namun sebenarnya, senyum dan kebahagiaan memiliki hubungan yang dua arah. Anda tetap bisa mencoba tersenyum untuk memancing rasa bahagia menghampiri diri. Jangan lupa untuk memulai hari dengan tersenyum, begitu Anda bangun tidur di pagi hari.</p>
+			</div>
+		</section>
+		
+		<section class="page two">
+			<div class="page-container">
+				<h2>Berikan Pujian Pada Orang Lain</h2>
+				<p>Menyampaikan pujian yang tulus menjadi cara mudah dan cepat untuk membuat Anda lebih bahagia, di samping juga menyenangkan hari orang yang Anda puji. Pusatkan pujian pada kualitas yang ada pada diri seseorang dan tidak terlalu fokus berdasarkan penampilan fisiknya. Pujian tersebut, misalnya:
+					“Aku suka senyummu yang menularkan kebahagiaan pada orang lain.”
+					“Kamu menginspirasiku untuk menjadi lebih baik.”</p>
+			</div>
+		</section>
+		
+		<section class="page three">
+			<div class="page-container">
+				<h2>Jangan Larut Dalam Kesendirian</h2>
+				<p>Pada dasarnya, manusia adalah makhluk sosial. Walau beberapa orang mungkin mengganggap dirinya individu introvert, ada kalanya kita tetap membutuhkan satu atau dua orang untuk berbagi dan bercengkrama.
+					Apabila memungkinkan, Anda juga bisa mencoba merawat hewan peliharaan di rumah sebagai teman agar hidup Anda lebih berwarna. Telah banyak studi yang menunjukkan efek positif dari memelihara hewan.</p>
+				
+			</div>
+		</section>
+
+	</div>
+
+	<script type="text/javascript">
+	$(".main").onepage_scroll({
+		sectionContainer: "section",
+	});
+	</script>
+<!-- start popup -->
+<div id="close">
+	<div class="container-popup">
+		<form action="#" method="post" class="popup-form">
+			<img src="img/Iklan.jpeg" alt="400px"> 
+		</form>
+		<a class="close" href="#close">close</a>
+	</div>
+</div>
+<!-- end popup -->
+</body>
+</html>
